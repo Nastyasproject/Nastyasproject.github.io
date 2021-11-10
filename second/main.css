@@ -9,6 +9,7 @@ body {
 	padding: 0 4%;
 }
 
+
 .left-arrow {
 	transform: rotate(180deg);
 	width: 28px;
@@ -22,29 +23,31 @@ header > a {
 }
 
 .logo-of-brands,
-header, 
-.head-text{
+header,
+.head-text {
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.logo-of-brands{
+.logo-of-brands {
 	overflow-x: scroll;
-	margin: 40xp 0;
+	margin: 40px 0;
 }
 
 .logo-of-brands > img {
 	background-color: #fff;
 	border-radius: 50%;
 	padding: 15px;
-	widows: 60px;
+	width: 60px;
 }
 
 .logo-of-brands > img:nth-child(5) {
+
 	padding: 19px;
 }
+
 
 .main-content {
 	margin-top: 40px;
@@ -65,7 +68,7 @@ header,
 
 .wrapper-kicks {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2,1fr);
 	grid-gap: 17px;
 }
 
@@ -81,14 +84,14 @@ header,
 	width: 28px;
 	opacity: 0.6;
 	right: 10%;
-	top: 4%;
+	top: 4%;	
 }
 
 .item-kick > img:nth-child(2){
 	width: 100%;
 }
 
-h1,h2,h3,a,p,span {
+h1,h2,h3,a,p,span{
 	line-height: 21px;
 	font-family: 'Manrope', sans-serif;
 }
@@ -105,6 +108,3 @@ h1,h2,h3,a,p,span {
 	margin-top: 10px;
 	opacity: 0.4;
 }
-
-
-
