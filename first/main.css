@@ -196,6 +196,8 @@ h2 {
 
 .flex-name-of-brand:nth-child(1) {
 	background-image: url(img/timber.jpg);
+	background-position: center;
+	background-size: 90;
 }
 
 .flex-name-of-brand:nth-child(2) {
