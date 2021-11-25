@@ -79,6 +79,7 @@ nav > a:hover{
 
 .right-first-line-content {
 	width: 30%;
+	background-image: url(img/imagelong.jpg);
 	padding: 60px 45px;
 	background-size: cover;
 	height: 260px;
